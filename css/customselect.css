@@ -1,0 +1,42 @@
+.select-span{
+	line-height:18px;
+	font-size:12px;
+	color:#747474;
+}
+.select-options{
+	position:relative;
+}
+.select-options:hover{
+	
+}
+
+.select-ul{
+	display:none;
+	margin-top:0px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1000;
+	list-style: none;
+	padding:0;
+}
+
+.select-ul li{
+	border:1px solid #CCC;
+	background:#fff;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-indent:5px;
+	font-size:14px;
+	color:#747474;
+}
+
+.select-ul li:hover{
+	color:#fff;
+	background:#cccccc;
+}
+
+.select-ul li.active{
+	color:#fff;
+	background:#cccccc;
+}
