@@ -8,12 +8,13 @@ V 1.0.0
     $.fn.extend({      
         customSelect: function (argumentOptions) {
             var defaults = {
-				width: 100,
-				height: 19,
-				image: "select.jpg",
-				textAlign: "left",
-				textIndent: "10"
+				width		: 100,
+				height		: 19,
+				image       : "select.jpg",
+				textAlign   : "left",
+				textIndent	: "10"
 			}
+			
 			var options = $.extend(defaults, argumentOptions);
 			
 			return this.each(function () {
@@ -23,7 +24,7 @@ V 1.0.0
 				var li = $("li", ul);
 				var span = $("span", obj);
 				var active = -1;
-				var number_of_li_element = ul.find('li').length;
+				var numberOfLiElement = ul.find('li').length;
 				var $document = $(document);
 
 				unbind = function(){
@@ -61,7 +62,7 @@ V 1.0.0
 					});
 					$document.bind("keyup", function(e){
 					    if (e.keyCode == 40) { 
-					        if(active < number_of_li_element - 1){
+					        if(active < numberOfLiElement - 1){
 					       		active++;
 					       		ul.find('li').removeClass('active');
 					       		ul.find('li:eq(' + active + ')').addClass('active');
