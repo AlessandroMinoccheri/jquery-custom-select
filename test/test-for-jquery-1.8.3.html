@@ -1,0 +1,62 @@
+<html>
+<head>
+  <title>jQuery-HighLight-Twitter-Plugin UnitTesting</title>
+  <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.11.0.css" type="text/css" media="all">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+  <h1 id="qunit-header">jQuery-HighLight-Twitter-Plugin QUnit Tests</h1>
+  <h2 id="qunit-banner"></h2>
+  <div id="qunit-testrunner-toolbar"></div>
+  <h2 id="qunit-userAgent"></h2>
+  <ol id="qunit-tests"></ol>
+  <div id="qunit-fixture">test markup, will be hidden</div>
+
+  <!-- testing area -->
+  <!-- testing area -->
+    <h1>jquery-custom-select</h1>
+    <p>jquery-custom-select is a plugin to cusotmize your select with a span an image and a div.<br /><br />
+        This is a normal select not customize: <br />
+    </p>
+    <select name="select-element">
+        <option value="first">first</option>
+        <option value="second">second</option>
+        <option value="third">third</option>
+    </select>
+    <p>This is a custom select: <br />
+    </p>
+    
+    <div id="my-select">
+        <span class="select-span">first</span>
+        <div class="select-options">
+            <ul class="select-ul">
+                <li>first</li>
+              <li>second</li>
+              <li>third</li>
+          </ul>
+      </div>
+    </div>
+    <p>With the custom select you have an input type hidden with the value that you select.</p>
+
+    <h2>Options</h2>
+    <p>There are some options that you can apply to the plugin:</p>
+    <ul>
+        <li><b>width:</b> The width of your custom select (default: 100)</li>
+        <li><b>height:</b> The height of your custom select (default: 19)</li>
+        <li><b>image: </b> The image that you apply at the custom select (default: select.jpg inside the folder img/)</li>
+        <li><b>textAlign:</b> The alignment of text (default: left)</li>
+        <li><b>textIndent: </b> Text indentation of text (default: 10)</li>
+    </ul>
+    <!--/ testing area-->
+  <!--/ testing area-->
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+
+  <script type="text/javascript" src="./sinon-1.10.3.js"></script>
+  <script type="text/javascript" src="./sinon-qunit-1.0.0.js"></script>
+
+  <script type="text/javascript" src="../js/jquery.customSelect.js"></script>
+  <script type="text/javascript" src="jquery.customselect.test.js"></script>
+</body>
+</html>
