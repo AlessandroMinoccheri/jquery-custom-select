@@ -8,23 +8,24 @@ V 1.0.0
     $.fn.extend({      
         customSelect: function (argumentOptions) {
             var defaults = {
-				width: 100,
-				height: 19,
-				image: "select.jpg",
-				textAlign: "left",
-				textIndent: "10"
+				width		: 100,
+				height		: 19,
+				image       : "select.jpg",
+				textAlign   : "left",
+				textIndent	: "10"
 			}
+			
 			var options = $.extend(defaults, argumentOptions);
 			
 			return this.each(function () {
-                var o = options;
-				var obj = $(this);
-				var ul = $("ul", obj);
-				var li = $("li", ul);
-				var span = $("span", obj);
-				var active = -1;
-				var number_of_li_element = ul.find('li').length;
-				var $document = $(document);
+                var o 					= options;
+				var obj 				= $(this);
+				var ul 					= $("ul", obj);
+				var li 					= $("li", ul);
+				var span 				= $("span", obj);
+				var active 				= -1;
+				var numberOfLiElement 	= ul.find('li').length;
+				var $document 			= $(document);
 
 				unbind = function(){
 		    		ul.unbind("mouseleave");
@@ -59,9 +60,10 @@ V 1.0.0
 							 });
 						}, 400);		
 					});
+
 					$document.bind("keyup", function(e){
 					    if (e.keyCode == 40) { 
-					        if(active < number_of_li_element - 1){
+					        if(active < numberOfLiElement - 1){
 					       		active++;
 					       		ul.find('li').removeClass('active');
 					       		ul.find('li:eq(' + active + ')').addClass('active');
