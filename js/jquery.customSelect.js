@@ -5,6 +5,8 @@ V 1.0.0
 */
 
 (function ($) {
+	var numOptions = 0;
+
     $.fn.extend({      
         customSelect: function (argumentOptions) {
             var defaults = {
@@ -35,7 +37,7 @@ V 1.0.0
 				
 				var input= '<input type="text" value="' + span.text() + '" name="' + obj.attr('id') + '" style="display:none"/>';
 				obj.append(input);
-				
+
 				obj.css("background", "url(img/" + o.image + ") no-repeat");
 				obj.css("width", o.width);
 				obj.css("height", o.height);
@@ -103,5 +105,5 @@ V 1.0.0
 				});
             });
         }
-    });     
+    });
 })(jQuery);

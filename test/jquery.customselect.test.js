@@ -16,9 +16,23 @@ $(document).ready(function(){
         mySelect.click();
         numOptions = $(document).find('.select-ul').find('li').length;
 
-        console.log('numOptions: ' + numOptions);
-
         notEqual( numOptions, '0');
+    });
+
+    test("Click on option", function(){
+        var check = false;
+        var value = '';
+        var newValue = '';
+
+        value = $(document).find('.select-ul').find('li').eq(1).html();
+        $(document).find('.select-ul').find('li').eq(1).click();;
+        newValue = $(document).find('.select-span').html();
+
+        if(value = newValue){
+          check = true;
+        }
+
+        ok(check , true);
     });
 });
 
