@@ -20,6 +20,7 @@ To create a custom select you need an html structure like this:
     </div>
 </div>
 ```
+
 There is a div with an id that you have to use to call the jquery-custom-select plugin.<br>
 There is a span where you put the default value of your select.<br>
 There is an ul element with its class and li element where you need to put your option.
@@ -40,6 +41,7 @@ $('#my-select').customSelect({
 	image:"select.jpg"
 }) 
 ```
+
 #Options
 
 There are some options that you can apply to the plugin:<br>
