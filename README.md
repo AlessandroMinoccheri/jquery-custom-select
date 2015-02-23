@@ -1,3 +1,6 @@
+##jQuery Custom Select v.1.0.0
+[![Build Status](https://api.travis-ci.org/AlessandroMinoccheri/jquery-custom-select.png)](https://travis-ci.org/AlessandroMinoccheri/jquery-custom-select)
+
 #Introduction
 jquery-custom-select is a plugin to customize your select with a span an image and a div.
 It creates automatically an input type hidden with the value that you have selected
