@@ -1,4 +1,4 @@
-##jQuery Custom Select v.1.0.0
+##jQuery Custom Select v.2.0.0
 [![Build Status](https://api.travis-ci.org/AlessandroMinoccheri/jquery-custom-select.png)](https://travis-ci.org/AlessandroMinoccheri/jquery-custom-select)
 
 #Introduction
