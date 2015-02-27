@@ -1,7 +1,7 @@
 /*
 Alessandro Minoccheri
-V 1.0.0
-15-02-2014
+V 2.0.0
+26-02-2015
 */
 
 (function ($) {
