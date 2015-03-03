@@ -5,6 +5,9 @@
 jquery-custom-select is a plugin to customize your select with a span an image and a div.
 It creates automatically an input type hidden with the value that you have selected
 
+#Result
+![Example](http://www.alessandrominoccheri.com/wp-content/uploads/2015/01/jquery-custom-select.png)
+
 #Get started
 To create a custom select you need an html structure like this:
 
