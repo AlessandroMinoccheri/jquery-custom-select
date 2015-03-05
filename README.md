@@ -1,4 +1,6 @@
 ##jQuery Custom Select v.2.0.0
+
+[![Join the chat at https://gitter.im/AlessandroMinoccheri/jquery-custom-select](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/AlessandroMinoccheri/jquery-custom-select?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://api.travis-ci.org/AlessandroMinoccheri/jquery-custom-select.png)](https://travis-ci.org/AlessandroMinoccheri/jquery-custom-select)
 
 #Introduction
