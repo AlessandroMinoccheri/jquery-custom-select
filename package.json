@@ -4,7 +4,11 @@
     "description": "jquery-custom-select is a plugin to customize your select with a span an image and a div.",
     "keywords": [
         "custom-select",
-        "select"
+        "select",
+        "jquery",
+        "javascript",
+        "plugin",
+        "html"
     ],
     "version": "2.0.0",
     "author": {
